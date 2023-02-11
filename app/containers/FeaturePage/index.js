@@ -6,6 +6,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { FormattedMessage } from 'react-intl';
+import { Button } from 'antd';
 
 import H1 from 'components/H1';
 import messages from './messages';
@@ -23,6 +24,7 @@ export default function FeaturePage() {
           content="Feature page of React.js Boilerplate application"
         />
       </Helmet>
+      <Button>dsadsad</Button>
       <H1>
         <FormattedMessage {...messages.header} />
       </H1>
